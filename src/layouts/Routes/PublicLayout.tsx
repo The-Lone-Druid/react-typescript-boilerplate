@@ -6,7 +6,7 @@ type Props = {};
 const PublicLayout = (props: Props) => {
   return (
     <div>
-      <ul className="flex itesm-center gap-[10px]">
+      {/* <ul className="flex itesm-center gap-[10px]">
         <li>
           <NavLink to={"/"}>Home</NavLink>
         </li>
@@ -22,7 +22,7 @@ const PublicLayout = (props: Props) => {
         <li>
           <NavLink to={"/services/solutions"}>Solutions</NavLink>
         </li>
-      </ul>
+      </ul> */}
       <Outlet />
     </div>
   );
